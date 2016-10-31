@@ -1,0 +1,5 @@
+artifacts/
+.DS_STORE
+.*.swp
+.sass-cache/
+_site/
