@@ -7,7 +7,7 @@ GITHUB_REPONAME = "screwdriver-cd/homepage"
 
 def run(command)
   puts '$ ' + command
-  result = system('time ' + command)
+  result = system(command)
   raise "Command Failed with #{$CHILD_STATUS}" if result.nil? || result == false
 end
 
