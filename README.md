@@ -18,5 +18,5 @@ rake serve    # Run a local documentation server
 
 Code licensed under the BSD 3-Clause license. See LICENSE file for terms.
 
-[status-image]: https://cd.screwdriver.cd/pipelines/pipelineid/badge
-[status-url]: https://cd.screwdriver.cd/pipelines/pipelineid
+[status-image]: https://cd.screwdriver.cd/pipelines/2adc50a62f268d10f1e11b6106cf0a787566bca7/badge
+[status-url]: https://cd.screwdriver.cd/pipelines/2adc50a62f268d10f1e11b6106cf0a787566bca7
