@@ -30,3 +30,47 @@ exclude:
   - CONTRIBUTING.md
   - Rakefile
   - ci
+
+
+# Team names, titles and social links
+founders:
+- name: St. John Johnson
+  pic: stjohn
+  position: Galactic Hitchhiker
+  github: https://github.com/stjohnjohnson
+
+- name: Peter Peterson
+  pic: petey
+  position: Javascript Jedi
+  github: https://github.com/petey
+
+- name: Jeremiah Wuenschel
+  pic: jer
+  position: Digital Plumber
+  github: https://github.com/jer
+
+people:
+- name: Noah Katzman
+  pic: nkatzman
+  position: Hates Cats
+  github: https://github.com/nkatzman
+
+- name: Tiffany Kyi
+  pic: tkyi
+  position: Turtle Addict
+  github: https://github.com/tkyi
+
+- name: Dao Lam
+  pic: d2lam
+  position: D2
+  github: https://github.com/d2lam
+
+- name: Darren Matsumoto
+  pic: FenrirUnbound
+  position: Blue Shell Connoisseur
+  github: https://github.com/FenrirUnbound
+
+- name: Min Zhang
+  pic: minz1027
+  position: Not Max
+  github: https://github.com/minz1027

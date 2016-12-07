@@ -3,3 +3,7 @@
     color: #FFF;
     padding: 25px;
 }
+
+#team .team-member a:hover img {
+    border: 7px solid #{{ site.data.template.color.primary }};
+}
