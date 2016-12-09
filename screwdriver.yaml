@@ -14,7 +14,6 @@ jobs:
     publish:
         steps:
             - setup-ci: git clone https://gist.github.com/3d2388b2a7ba658cdcdaffa8cd874e50.git ci
-            - setup-git: ./ci/git-ssh.sh
             - init: bundle install
             - publish: bundle exec rake publish
         secrets:
