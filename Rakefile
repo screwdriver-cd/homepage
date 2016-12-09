@@ -36,6 +36,7 @@ task :publish => [:build] do
     pwd = Dir.pwd
     Dir.chdir tmp
 
+    run("./ci/git-ssh.sh")
     run("git init")
     run("git add .")
     message = "Site updated at #{Time.now.utc}"
