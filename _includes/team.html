@@ -1,0 +1,44 @@
+<!-- Team Section -->
+    <section id="team" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Our Amazing Team</h2>
+                    <h3 class="section-subheading text-muted">Our founders have over a dozen years of experience building and serving Continuous Delivery products.</h3>
+                </div>
+            </div>
+            <div class="row">
+                {% for member in site.founders %}
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <a href="{{ member.github }}">
+                            <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">
+                        </a>
+                        <h4>{{ member.name }}</h4>
+                        <p class="text-muted">{{ member.position }}</p>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            <div class="row">
+                <div class="col-sm-1"></div>
+                {% for member in site.people %}
+                <div class="col-sm-2">
+                    <div class="team-member">
+                        <a href="{{ member.github }}">
+                            <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">
+                        </a>
+                            <h4>{{ member.name }}</h4>
+                        <p class="text-muted">{{ member.position }}</p>
+                    </div>
+                </div>
+                {% endfor %}
+                <div class="col-sm-1"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p class="large text-muted">Our experiences have inspired us to set out to build an intuitive, sophisticated tool to boost developer productivity. The Screwdriver team is based in Sunnyvale, CA.</p>
+                </div>
+            </div>
+        </div>
+    </section>
