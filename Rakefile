@@ -30,13 +30,13 @@ end
 
 desc "Generate and publish documentation to gh-pages"
 task :publish => [:build] do
+  run("./ci/git-ssh.sh")
   Dir.mktmpdir do |tmp|
     cp_r "_site/.", tmp
 
     pwd = Dir.pwd
     Dir.chdir tmp
 
-    run("./ci/git-ssh.sh")
     run("git init")
     run("git add .")
     message = "Site updated at #{Time.now.utc}"
