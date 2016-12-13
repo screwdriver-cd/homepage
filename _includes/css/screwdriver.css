@@ -7,3 +7,7 @@
 #team .team-member a:hover img {
     border: 7px solid #{{ site.data.template.color.primary }};
 }
+
+#team .team-member h4 {
+    font-size: 17px;
+}
