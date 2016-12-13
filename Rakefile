@@ -30,7 +30,7 @@ end
 
 desc "Generate and publish documentation to gh-pages"
 task :publish => [:build] do
-  run("./ci/git-ssh.sh")
+  run("source ./ci/git-ssh.sh")
   Dir.mktmpdir do |tmp|
     cp_r "_site/.", tmp
 
