@@ -8,6 +8,7 @@ body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #{{ site.data.template.color.secondary-dark }};
+    font-weight: 300;
 }
 
 .text-muted {
@@ -54,7 +55,7 @@ h5,
 h6 {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .img-centered {
@@ -73,7 +74,7 @@ h6 {
     border-color: #{{ site.data.template.color.primary }};
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
-    font-weight: 700;
+    font-weight: 600;
     color: #fff;
     background-color: #{{ site.data.template.color.primary }};
 }
@@ -125,7 +126,7 @@ fieldset[disabled] .btn-primary.active {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 600;
     color: #fff;
     background-color: #{{ site.data.template.color.primary }};
 }
@@ -209,7 +210,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
-    font-weight: 400;
+    font-weight: 300;
     letter-spacing: 1px;
     color: #fff;
 }
@@ -285,7 +286,7 @@ header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: {{ site.data.template.font.secondary }};
     font-size: 22px;
-    font-style: italic;
+    font-style: normal;
     line-height: 22px;
 }
 
@@ -294,7 +295,7 @@ header .intro-text .intro-heading {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-size: 50px;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 50px;
 }
 
@@ -308,16 +309,16 @@ header .intro-text .intro-heading {
         margin-bottom: 25px;
         font-family: {{ site.data.template.font.secondary }};
         font-size: 40px;
-        font-style: italic;
+        font-style: normal;
         line-height: 40px;
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 50px;
+        margin-bottom: 25px;
         text-transform: uppercase;
         font-family: {{ site.data.template.font.primary }};
-        font-size: 75px;
-        font-weight: 700;
+        font-size: 90px;
+        font-weight: 600;
         line-height: 75px;
     }
 }
@@ -338,7 +339,7 @@ section h3.section-subheading {
     font-family: {{ site.data.template.font.secondary }};
     font-size: 16px;
     font-style: italic;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 @media(min-width:768px) {
