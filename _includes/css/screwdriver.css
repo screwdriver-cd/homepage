@@ -11,3 +11,28 @@
 #team .team-member h4 {
     font-size: 17px;
 }
+
+footer .row {
+    font-size: 15px;
+    text-align: left;
+}
+
+footer .row h4 {
+    padding-left: 40px;
+}
+
+footer .row .quicklinks {
+    list-style: none;
+    text-align: left;
+}
+
+footer .row .citation {
+    font-size: 11px;
+    padding-left: 0px;
+}
+
+footer .yahoo-logo {
+    font-size: 11px;
+    padding-left: 0px;
+    width: 70%;
+}
