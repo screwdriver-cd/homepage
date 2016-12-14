@@ -36,3 +36,8 @@ footer .yahoo-logo {
     padding-left: 0px;
     width: 70%;
 }
+
+#description p {
+    font-weight: 300;
+    font-size: 25px;
+}
