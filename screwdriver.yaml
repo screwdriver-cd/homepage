@@ -15,7 +15,7 @@ jobs:
         steps:
             - setup-ci: git clone https://gist.github.com/3d2388b2a7ba658cdcdaffa8cd874e50.git ci
             - init: bundle install
-            - publish: bundle exec rake publish
+            - publish: bundle exec ./deploy.sh
         secrets:
             # Pushing code to Git
             - GIT_KEY
