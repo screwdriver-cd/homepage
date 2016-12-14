@@ -11,3 +11,8 @@
 #team .team-member h4 {
     font-size: 17px;
 }
+
+#description p {
+    font-weight: 300;
+    font-size: 25px;
+}
