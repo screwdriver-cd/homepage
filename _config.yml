@@ -30,6 +30,7 @@ exclude:
   - CONTRIBUTING.md
   - Rakefile
   - ci
+  - deploy.sh
 
 
 # Team names, titles and social links
