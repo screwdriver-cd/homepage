@@ -13,28 +13,24 @@
 }
 
 footer .row {
-    font-size: 15px;
+    font-size: 12px;
     text-align: left;
 }
 
 footer .row h4 {
+    font-size: 14px;
     padding-left: 40px;
 }
 
 footer .row .quicklinks {
+    line-height: 25px;
     list-style: none;
     text-align: left;
 }
 
-footer .row .citation {
-    font-size: 11px;
-    padding-left: 0px;
-}
-
-footer .yahoo-logo {
-    font-size: 11px;
-    padding-left: 0px;
-    width: 70%;
+footer .credits {
+    font-size: 10px;
+    text-align: center;
 }
 
 #description p {
