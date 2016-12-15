@@ -1,27 +1,45 @@
   <footer>
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
-                    <span class="copyright">Copyright Yahoo Inc. {{ 'now' | date: "%Y" }}</span>
+                <div class="col-md-2">
                 </div>
-                <div class="col-md-4">
-                    <ul class="list-inline social-buttons">
-                        {% for network in site.social %}
-                        <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                <div class="col-md-3">
+                    <h4>Resources</h4>
+                    <ul class="quicklinks">
+                        <li><a href="http://docs.screwdriver.cd/user-guide/quickstart">Getting Started</a>
                         </li>
-                        {% endfor %}
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline quicklinks">
-                        <li>
-                            <a href="https://github.com/y7kim/agency-jekyll-theme">Theme by Rick K.</a>
-                        </li>
-                        <li>
-                            <a href="https://flic.kr/p/hmZTt">Photo by Don DeBold</a>
+                        <li><a href="http://docs.screwdriver.cd">Documentation</a>
                         </li>
                     </ul>
                 </div>
+                <div class="col-md-3">
+                    <h4>Contribute</h4>
+                    <ul class="quicklinks">
+                        <li><a href="https://github.com/screwdriver-cd/screwdriver">Github</a>
+                        </li>
+                        <li><a href="https://github.com/screwdriver-cd/screwdriver/issues">Suggest</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4>Community</h4>
+                    <ul class="quicklinks">
+                        <li><a href="https://slack.screwdriver.cd">Contact Us</a>
+                        </li>
+                        <li><a href="http://blog.screwdriver.cd">Blog</a>
+                        </li>
+                        <li><a href="http://stackoverflow.com/questions/tagged/screwdriver-cd">Stack Overflow</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                </div>
+            </div>
+            <div class="credits">
+                <span class="copyright">Copyright Yahoo Inc. {{ 'now' | date: "%Y" }}</span>
+                Licensed by <a href="https://github.com/screwdriver-cd/screwdriver/blob/master/LICENSE">BSD-3-Clause</a>
+                , <a href="https://github.com/y7kim/agency-jekyll-theme">Theme</a> by Rick K.
+                , <a href="https://flic.kr/p/hmZTt">Photo</a> by Don DeBold
             </div>
         </div>
     </footer>

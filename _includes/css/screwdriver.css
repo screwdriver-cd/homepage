@@ -12,6 +12,27 @@
     font-size: 17px;
 }
 
+footer .row {
+    font-size: 12px;
+    text-align: left;
+}
+
+footer .row h4 {
+    font-size: 14px;
+    padding-left: 40px;
+}
+
+footer .row .quicklinks {
+    line-height: 25px;
+    list-style: none;
+    text-align: left;
+}
+
+footer .credits {
+    font-size: 10px;
+    text-align: center;
+}
+
 #description p {
     font-weight: 300;
     font-size: 25px;
