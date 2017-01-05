@@ -1,5 +1,5 @@
 # Homepage
-[![Build Status][status-image]][status-url]
+[![Build Status][status-image]][status-url] [![Open Issues][issues-image]][issues-url]
 
 > One-pager for Screwdriver's homepage
 
@@ -18,5 +18,7 @@ rake serve    # Run a local documentation server
 
 Code licensed under the BSD 3-Clause license. See LICENSE file for terms.
 
-[status-image]: https://cd.screwdriver.cd/pipelines/2adc50a62f268d10f1e11b6106cf0a787566bca7/badge
-[status-url]: https://cd.screwdriver.cd/pipelines/2adc50a62f268d10f1e11b6106cf0a787566bca7
+[issues-image]: https://img.shields.io/github/issues/screwdriver-cd/screwdriver.svg
+[issues-url]: https://github.com/screwdriver-cd/screwdriver/issues
+[status-image]: https://cd.screwdriver.cd/pipelines/32/badge
+[status-url]: https://cd.screwdriver.cd/pipelines/32
