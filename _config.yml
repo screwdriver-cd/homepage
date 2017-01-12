@@ -34,23 +34,12 @@ exclude:
 
 
 # Team names, titles and social links
-founders:
+people:
 - name: St. John Johnson
   pic: stjohn
   position: Galactic Hitchhiker
   github: https://github.com/stjohnjohnson
 
-- name: Peter Peterson
-  pic: petey
-  position: Javascript Jedi
-  github: https://github.com/petey
-
-- name: Jeremiah Wuenschel
-  pic: jer
-  position: Digital Plumber
-  github: https://github.com/jer
-
-people:
 - name: Noah Katzman
   pic: nkatzman
   position: Hates Cats
@@ -70,6 +59,16 @@ people:
   pic: FenrirUnbound
   position: Blue Shell Connoisseur
   github: https://github.com/FenrirUnbound
+
+- name: Peter Peterson
+  pic: petey
+  position: Javascript Jedi
+  github: https://github.com/petey
+
+- name: Jeremiah Wuenschel
+  pic: jer
+  position: Digital Plumber
+  github: https://github.com/jer
 
 - name: Min Zhang
   pic: minz1027
