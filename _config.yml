@@ -2,8 +2,7 @@
 # Site settings
 url: http://screwdriver.cd
 title: screwdriver.cd
-# email: your-email@domain.com
-# description:
+analytics: UA-88158708-2
 
 social:
   - title: slack
