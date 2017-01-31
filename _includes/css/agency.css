@@ -6,13 +6,13 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #{{ site.data.template.color.secondary-dark }};
     font-weight: 300;
 }
 
 .text-muted {
-    #{{ site.data.template.color.muted }};
+    color: #{{ site.data.template.color.muted }};
 }
 
 .text-primary {
@@ -26,6 +26,7 @@ p {
 
 p.large {
     font-size: 16px;
+    text-align: center;
 }
 
 a,
@@ -63,7 +64,7 @@ h6 {
 }
 
 .bg-light-gray {
-    background-color: #f7f7f7;
+    background-color: rgb(245,245,245);
 }
 
 .bg-darkest-gray {
@@ -275,6 +276,14 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 header .intro-text {

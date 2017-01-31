@@ -39,11 +39,6 @@ people:
   position: Galactic Hitchhiker
   github: https://github.com/stjohnjohnson
 
-- name: Noah Katzman
-  pic: nkatzman
-  position: Hates Cats
-  github: https://github.com/nkatzman
-
 - name: Tiffany Kyi
   pic: tkyi
   position: Turtle Addict
@@ -64,13 +59,18 @@ people:
   position: Javascript Jedi
   github: https://github.com/petey
 
+- name: Reetika Rastogi
+  pic: r3rastogi
+  position: Untitled, 2017
+  github: https://github.com/r3rastogi
+
 - name: Jeremiah Wuenschel
   pic: jer
   position: Digital Plumber
   github: https://github.com/jer
 
 - name: Jerry Zhang
-  pic: jayz
+  pic: jerryzhang222
   position: SQL Slayer
   github: https://github.com/jerryzhang222
 
