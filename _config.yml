@@ -69,6 +69,11 @@ people:
   position: Digital Plumber
   github: https://github.com/jer
 
+- name: Jerry Zhang
+  pic: jayz
+  position: SQL Slayer
+  github: https://github.com/jerryzhang222
+
 - name: Min Zhang
   pic: minz1027
   position: Not Max
