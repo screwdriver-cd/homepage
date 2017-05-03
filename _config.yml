@@ -34,6 +34,11 @@ exclude:
 
 # Team names, titles and social links
 people:
+- name: Ian Fox
+  pic: ian-fox
+  position: The Burninator
+  github: https://github.com/ian-fox
+
 - name: St. John Johnson
   pic: stjohn
   position: Galactic Hitchhiker
@@ -68,11 +73,6 @@ people:
   pic: jer
   position: Digital Plumber
   github: https://github.com/jer
-
-- name: Jerry Zhang
-  pic: jerryzhang222
-  position: SQL Slayer
-  github: https://github.com/jerryzhang222
 
 - name: Min Zhang
   pic: minz1027
