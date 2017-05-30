@@ -178,6 +178,13 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
+    background: transparent url('../brand/LOGOS/SVG/Screwdriver_Logo_FullWhite.svg') no-repeat;
+    background-size: contain;
+    direction: ltr;
+    text-indent: -9000px;
+    height: 40px;
+    width: 194px;
+    display: inline-block;
     font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
     text-transform: uppercase;
     color: #{{ site.data.template.color.primary }};
