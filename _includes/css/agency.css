@@ -188,6 +188,8 @@ fieldset[disabled] .btn-xl.active {
     font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
     text-transform: uppercase;
     color: #{{ site.data.template.color.primary }};
+    margin-top: 12px;
+    margin-left: 10px;
 }
 
 .navbar-default .navbar-brand:hover,
