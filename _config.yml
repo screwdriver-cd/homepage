@@ -34,9 +34,14 @@ exclude:
 
 # Team names, titles and social links
 people:
+- name: Jithin Emmanuel
+  pic: jithin1987
+  position: RESTafarian
+  github: https://github.com/jithin1987
+
 - name: Ian Fox
   pic: ian-fox
-  position: The Burninator
+  position: Almost Definitely Sane
   github: https://github.com/ian-fox
 
 - name: St. John Johnson
@@ -68,6 +73,11 @@ people:
   pic: r3rastogi
   position: Untitled, 2017
   github: https://github.com/r3rastogi
+
+- name: Joel Sequeira
+  pic: joelseq
+  position: Interny McInternface
+  github: https://github.com/joelseq
 
 - name: Jeremiah Wuenschel
   pic: jer
