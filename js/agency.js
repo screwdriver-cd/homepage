@@ -6,10 +6,12 @@
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
+    var navbarHeight = $('.navbar').outerHeight();
+
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top
+            scrollTop: $($anchor.attr('href')).offset().top - navbarHeight
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });

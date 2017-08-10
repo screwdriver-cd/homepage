@@ -9,18 +9,24 @@
             <div class="row">
                 <div class="col-lg-1"></div>
                 <div class="col-lg-10">
+                    Run the command below in your terminal to bring up a Screwdriver cluster locally.
+                    <br /><br />
                     <pre>python <(curl https://raw.githubusercontent.com/screwdriver-cd/screwdriver/master/in-a-box.py)</pre>
                 </div>
                 <div class="col-lg-1"></div>
             </div>
             <div class="row">
                 <div class="col-lg-1"></div>
-                <div class="col-lg-7">
-                    Run the above command in your terminal to bring up a Screwdriver cluster locally.
+                <div class="col-lg-8">
                     <br /><br />
-                    For setting up a production environment, take a look at our <a href="http://docs.screwdriver.cd/cluster-management/">documentation for cluster management.</a>
+                    This command will run a script that will create a Docker Compose file for you locally, complete with Oauth credentials using a generated JWT and a user-provided Oauth Client ID and secret.
+                    If you choose to do so, it will then Docker pull the Screwdriver API, UI, and log store images to bring up an entire Screwdriver instance locally for you to play with.
+                    All data written to a database will be stored in a /data directory.
+                    <br /><br />
+                    For setting up a production environment, take a look at our <a href="http://docs.screwdriver.cd/cluster-management">documentation for cluster management.</a>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-2">
+                    <br /><br />
                     Minimum Requirements:
                     <ul>
                         <li>Python 2.7</li>
