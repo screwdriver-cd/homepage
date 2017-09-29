@@ -1,3 +1,11 @@
+#features i.fa {
+    color: #{{ site.data.template.color.primary }};
+}
+
+#features a {
+    cursor: pointer;
+}
+
 #getting-started pre {
     background-color: #000;
     color: #FFF;
