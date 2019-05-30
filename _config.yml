@@ -35,6 +35,11 @@ exclude:
 # Team names, titles and social links
 people:
 
+- name: Alan Dong
+  pic: adong
+  position: adong
+  github: https://github.com/adong
+
 - name: Dao Lam
   pic: d2lam
   position: D2
@@ -45,25 +50,20 @@ people:
   position: Over 9000
   github: https://github.com/DekusDenial
 
-- name: Filbert Jahja
-  pic: Filbird
-  position: Filbird
-  github: https://github.com/Filbird
-
 - name: Jithin Emmanuel
   pic: jithin1987
   position: RESTafarian
   github: https://github.com/jithin1987
 
+- name: Lakshminarasimhan Parthasarathy
+  pic: parthasl
+  position: hmm
+  github: https://github.com/parthasl
+
 - name: Min Zhang
   pic: minz1027
   position: Not Max
   github: https://github.com/minz1027
-
-- name: Pranav Ravichandran
-  pic: pranavrc
-  position: hmm
-  github: https://github.com/pranavrc
 
 - name: St. John Johnson
   pic: stjohn
