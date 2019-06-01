@@ -5,7 +5,7 @@ jobs:
     main:
         requires: [~pr, ~commit]
         steps:
-            - init: bundle update --bundler && bundle install
+            - init: gem install bundler && bundle install
             - doctor: bundle exec rake doctor
             - build: bundle exec rake build
 
@@ -13,7 +13,7 @@ jobs:
         requires: [main]
         steps:
             - setup-ci: git clone https://github.com/screwdriver-cd/toolbox.git ci
-            - init: bundle update --bundler && bundle install
+            - init: gem install bundler && bundle install
             - publish: bundle exec ./deploy.sh
         secrets:
             # Pushing code to Git
