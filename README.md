@@ -13,6 +13,9 @@ For more information about Screwdriver, check out our [guide](http://docs.screwd
 
 Have a look at our guidelines, as well as pointers on where to start making changes, in our [contributing guide](http://docs.screwdriver.cd/about/contributing).
 
+### Prerequisites
+- [Bundler 2.0](https://bundler.io/blog/2019/01/03/announcing-bundler-2.html)
+
 ### Usage
 
 ```bash
