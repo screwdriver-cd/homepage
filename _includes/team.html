@@ -13,8 +13,10 @@
                         <a href="{{ member.github }}">
                             <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="" width="75%">
                         </a>
-                            <h4>{{ member.name }}</h4>
-                        <p class="text-muted">{{ member.position }}</p>
+                        <div class="profile-container">
+                           <h4>{{ member.name }}</h4>
+                           <p class="text-muted">{{ member.position }}</p>
+                        </div>
                     </div>
                 </div>
                 {% endfor %}

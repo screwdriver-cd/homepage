@@ -660,6 +660,10 @@ section h3.section-subheading {
     border: 7px solid #fff;
 }
 
+.team-member .profile-container {
+    height: 2em;
+}
+
 .team-member h4 {
     margin-top: 25px;
     margin-bottom: 0;
