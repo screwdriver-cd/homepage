@@ -55,15 +55,20 @@ people:
   position: RESTafarian
   github: https://github.com/jithin1987
 
+- name: Kevin Lu
+  pic: klu909
+  position: as himself
+  github: https://github.com/klu909
+
 - name: Lakshminarasimhan Parthasarathy
   pic: parthasl
   position: hmm
   github: https://github.com/parthasl
 
-- name: Min Zhang
-  pic: minz1027
-  position: Not Max
-  github: https://github.com/minz1027
+- name: Pritam Paul
+  pic: pritamstyz4ever
+  position: likes hikes
+  github: https://github.com/pritamstyz4ever
 
 - name: Tiffany Kyi
   pic: tkyi
