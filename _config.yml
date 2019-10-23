@@ -75,11 +75,6 @@ people:
   position: Turtle Addict
   github: https://github.com/tkyi
 
-- name: Ryosuke Nakayama
-  pic: catto
-  position: Watching everything
-  github: https://github.com/catto
-
 - name: Keisuke Kumada
   pic: kumada626
   position: kumada626
@@ -105,20 +100,10 @@ people:
   position: wa
   github: https://github.com/wahapo
 
-- name: Yomei Komiya
-  pic: wdstar
-  position: wdstar
-  github: https://github.com/wdstar
-
 - name: Yuya Takahashi
   pic: y-takaha5hi
   position: "16 shots per second"
   github: https://github.com/y-takaha5hi
-
-- name: Yuta Ohkawara
-  pic: yokawara
-  position: yokawara
-  github: https://github.com/yokawara
 
 - name: Yoshiyuki Watanabe
   pic: yoshwata
