@@ -22,4 +22,4 @@ group :jekyll_plugins do
    gem "jekyll-feed", "~> 0.8", ">= 0.8.0"
 end
 
-gem "rake"
+gem "rake", ">= 12.3.3"
