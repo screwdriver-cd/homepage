@@ -45,3 +45,25 @@ footer .credits {
     font-weight: 300;
     font-size: 25px;
 }
+
+ul > li.dropdown.open > ul {
+    background: #151515;
+}
+
+#hacktoberfest  img.sd-logo {
+    width: 55px;
+}
+
+#hacktoberfest img.sd-design {
+    width: 100%;
+}
+
+#hacktoberfest table.table,
+#hacktoberfest table.table > tbody > tr {
+    border-width: 1px;
+    border-style: solid;
+}
+
+#hacktoberfest p {
+    font-size: 16px;
+}
