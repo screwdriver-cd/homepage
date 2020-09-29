@@ -13,9 +13,6 @@ $(function() {
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top - navbarHeight
         }, 1500, 'easeInOutExpo');
-
-        window.location.hash = $.attr(this, 'href').substr(1);
-        event.preventDefault();
     });
 });
 
