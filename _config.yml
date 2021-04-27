@@ -66,6 +66,16 @@ people:
   position: hmm
   github: https://github.com/parthasl
 
+- name: Mansoor Chengat
+  pic: mchengat
+  position: Alim
+  github: https://github.com/mchengat
+
+- name: Om
+  pic: Om
+  position: Software Dev Engineer 2
+  github: https://github.com/ombharatiya
+
 - name: Pritam Paul
   pic: pritamstyz4ever
   position: likes hikes
@@ -150,13 +160,3 @@ people:
   pic: itleigns
   position: itleigns
   github: https://github.com/itleigns
-
-- name: Mansoor Chengat
-  pic: mchengat
-  position: alim
-  github: https://github.com/mchengat
-
-- name: Om
-  pic: Om
-  position: Software Dev Engineer 2
-  github: https://github.com/ombharatiya
