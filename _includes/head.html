@@ -4,6 +4,21 @@
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="{{ site.description }}">
+
+    <style id="antiClickjack">
+        body {
+            display: none !important;
+        }
+    </style>
+
+    <script type="text/javascript">
+        if (window.top === window.self) {
+            var antiClickjack = document.getElementById("antiClickjack");
+
+            antiClickjack.parentNode.removeChild(antiClickjack);
+        }
+    </script>
+
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="shortcut icon" href="../brand/LOGOS/favicons/favicon.ico" type="image/x-icon">
 
@@ -25,7 +40,7 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    
+
     <!-- CDF -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154682132-5"></script>
