@@ -130,11 +130,6 @@ people:
   position: Slam-dunker
   github: https://github.com/yuichi10
 
-- name: Kazuki Kokufuda
-  pic: kkokufud
-  position: kkokufud
-  github: https://github.com/kkokufud
-
 - name: Ibuki Miyagami
   pic: ibu1224
   position: ibu1224
@@ -150,11 +145,6 @@ people:
   position: sugarnaoming
   github: https://github.com/sugarnaoming
 
-- name: Mitsuru Takigahira
-  pic: MysticDoll
-  position: MysticDoll
-  github: https://github.com/MysticDoll
-
 - name: Ryosuke Shimma
   pic: esuc4se
   position: yes is a life password
@@ -164,3 +154,14 @@ people:
   pic: itleigns
   position: itleigns
   github: https://github.com/itleigns
+
+- name: Yuki Okesaku
+  pic: y-oksaku
+  position: y-oksaku
+  github: https://github.com/y-oksaku
+
+- name: Yuta Kaneda
+  pic: yk634
+  position: yk634
+  github: https://github.com/yk634
+
