@@ -4,10 +4,6 @@ url: http://screwdriver.cd
 title: screwdriver.cd
 analytics: UA-88158708-2
 
-webrick:
-  headers:
-    X-Frame-Options: SAMEORIGIN
-
 social:
   - title: slack
     url: http://slack.screwdriver.cd
