@@ -41,10 +41,10 @@ people:
   position: adong
   github: https://github.com/adong
 
-- name: Dao Lam
-  pic: d2lam
-  position: D2
-  github: https://github.com/d2lam
+- name: Dayanand Sagar
+  pic: sagar1312
+  position: Hakuna Matata
+  github: https://github.com/sagar1312
 
 - name: Dekus Lam
   pic: DekusDenial
@@ -60,21 +60,6 @@ people:
   pic: klu909
   position: as himself
   github: https://github.com/klu909
-
-- name: Lakshminarasimhan Parthasarathy
-  pic: parthasl
-  position: hmm
-  github: https://github.com/parthasl
-
-- name: Mansoor Chengat
-  pic: mchengat
-  position: Alim
-  github: https://github.com/mchengat
-
-- name: Om
-  pic: Om
-  position: Software Dev Engineer 2
-  github: https://github.com/ombharatiya
 
 - name: Pritam Paul
   pic: pritamstyz4ever
@@ -155,4 +140,3 @@ people:
   pic: yk634
   position: yk634
   github: https://github.com/yk634
-
