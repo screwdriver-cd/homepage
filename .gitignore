@@ -4,3 +4,4 @@ artifacts/
 .sass-cache/
 _site/
 .jekyll-cache/
+./vendor/
