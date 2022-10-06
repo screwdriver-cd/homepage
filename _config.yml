@@ -86,16 +86,6 @@ people:
   position: sakka2
   github: https://github.com/sakka2
 
-- name: Hiroki Takatsuka
-  pic: tk3fftk
-  position: tk3fftk
-  github: https://github.com/tk3fftk
-
-- name: Kenta Kawaharada
-  pic: wahapo
-  position: wa
-  github: https://github.com/wahapo
-
 - name: Yuya Takahashi
   pic: y-takaha5hi
   position: "16 shots per second"
@@ -121,11 +111,6 @@ people:
   position: sugarnaoming
   github: https://github.com/sugarnaoming
 
-- name: Ryosuke Shimma
-  pic: esuc4se
-  position: yes is a life password
-  github: https://github.com/esuc4se
-
 - name: Haruka Kawamura
   pic: itleigns
   position: itleigns
@@ -140,3 +125,8 @@ people:
   pic: yk634
   position: yk634
   github: https://github.com/yk634
+
+- name: Masataka Yamada
+  pic: gwt5091
+  position: railway-worker
+  github: https://github.com/GWT5091
