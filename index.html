@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>screwdriver.cd</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="">
+
+    <style id="antiClickjack">
+        body {
+            display: none !important;
+        }
+    </style>
+
+    <script type="text/javascript">
+        if (window.top === window.self) {
+            var antiClickjack = document.getElementById("antiClickjack");
+
+            antiClickjack.parentNode.removeChild(antiClickjack);
+        }
+    </script>
+
+    <link rel="canonical" href="http://screwdriver.cd/">
+    <link rel="shortcut icon" href="../brand/LOGOS/favicons/favicon.ico" type="image/x-icon">
+
+
+    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link rel="stylesheet" href="/style.css">
+
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- CDF -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154682132-5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-154682132-5');
+    </script>
+
+</head>
+
+
+    <body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">screwdriver.cd</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="http://screwdriver.cd">Home</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="http://docs.screwdriver.cd">Guide</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="http://blog.screwdriver.cd">Blog</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="http://docs.screwdriver.cd/about/support">Contact Us</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="http://docs.screwdriver.cd/about/contributing">Contributing</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Events<b class="caret"></b></a>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+                            <li>
+                                <a class="page-scroll" href="/hacktoberfest">Hacktoberfest 2022</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+
+        <!-- Header -->
+    <header>
+        <div class="layer">
+            <div class="container">
+                <div class="intro-text">
+                    <a class="intro-heading" href="http://cd.screwdriver.cd">Screwdriver</a>
+                    <div class="intro-lead-in">Build. Test. Deploy.</div>
+                    <a href="#getting-started" class="page-scroll btn btn-xl">Try it today</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Description -->
+    <section id="description">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-10 text-left">
+                    <p class="large">
+                        Screwdriver is an open source build platform designed for Continuous Delivery.
+                    </p>
+                </div>
+                <div class="col-lg-1"></div>
+            </div>
+        </div>
+    </section>
+
+<!-- Features Section -->
+<section id="features" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h1 class="section-heading">Why Screwdriver?</h1>
+                <p class="section-subheading text-muted"><i>We've built Screwdriver with easy configurability and isolation as security in mind.</i></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-1 col-md-1 col-sm-1">
+            </div>
+            <div class="col-xs-10 col-md-10 col-sm-10">
+                <div class="col-xs-5 col-md-5 col-sm-5">
+                    <p><i class="fa fa-check" aria-hidden="true"></i> <a href="https://docs.screwdriver.cd/about/contributing">Pick and choose plugins that make sense for you</a></p>
+                    <p><i class="fa fa-check" aria-hidden="true"></i> <a href="http://docs.screwdriver.cd/about">Not tied to any one compute platform</a></p>
+                    <p><i class="fa fa-check" aria-hidden="true"></i> <a href="http://docs.screwdriver.cd/user-guide/api">RESTful, fully documented API</a></p>
+                </div>
+                <div class="col-xs-2 col-md-2 col-sm-2">
+                </div>
+                <div class="col-xs-5 col-md-5 col-sm-5">
+                    <p><i class="fa fa-check" aria-hidden="true"></i> <a href="https://docs.screwdriver.cd/user-guide/configuration">Keep track of your config in code</a></p>
+                    <p><i class="fa fa-check" aria-hidden="true"></i> <a href="https://docs.screwdriver.cd/cluster-management/configure-api">Control your own cluster</a></p>
+                    <p><i class="fa fa-check" aria-hidden="true"></i> It's free!!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Integrations Section -->
+    <section id="integrations">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Supported Integrations</h2>
+                    <p class="section-subheading text-muted"><i>We support an expanding list of source code services, execution engines, and databases so Screwdriver can work in your ecosystem.</i></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-2 col-md-2 col-sm-2">
+                    <a href="https://github.com">
+                        <img src="/img/tech/github.png" class="img-responsive img-centered" alt="GitHub.com and GitHub Enterprise">
+                    </a>
+                </div>
+                <div class="col-xs-2 col-md-2 col-sm-2">
+                    <a href="https://bitbucket.org">
+                        <img src="/img/tech/bitbucket.png" class="img-responsive img-centered" alt="Bitbucket.org">
+                    </a>
+                </div>
+                <div class="col-xs-2 col-md-2 col-sm-2">
+                    <a href="http://kubernetes.io/">
+                        <img src="/img/tech/kubernetes.png" class="img-responsive img-centered" alt="Kubernetes">
+                    </a>
+                </div>
+                <div class="col-xs-2 col-md-2 col-sm-2">
+                    <a href="https://www.hashicorp.com/products/nomad">
+                        <img src="/img/tech/nomad.png" class="img-responsive img-centered" alt="HashiCorp Nomad">
+                    </a>
+                </div>
+                <div class="col-xs-2 col-md-2 col-sm-2">
+                    <a href="https://www.postgresql.org/">
+                        <img src="/img/tech/postgresql.png" class="img-responsive img-centered" alt="PostgreSQL">
+                    </a>
+                </div>
+                <div class="col-xs-2 col-md-2 col-sm-2">
+                    <a href="https://www.mysql.com/">
+                        <img src="/img/tech/mysql.png" class="img-responsive img-centered" alt="MySQL">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Getting Started -->
+    <section id="getting-started" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Getting Started</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-10">
+                    Run the command below in your terminal to bring up a Screwdriver cluster locally.
+                    <br /><br />
+                    <pre>python <(curl -L https://tinyurl.com/sd-in-a-box)</pre>
+                </div>
+                <div class="col-lg-1"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-8">
+                    <br /><br />
+                    This command will run a script that will create a Docker Compose file for you locally, complete with Oauth credentials using a generated JWT and a user-provided Oauth Client ID and secret.
+                    If you choose to do so, it will then Docker pull the Screwdriver API, UI, and log store images to bring up an entire Screwdriver instance locally for you to play with.
+                    All data written to a database will be stored in a data/ directory. For more configuration details, see our <a href="http://docs.screwdriver.cd/cluster-management/running-locally">SD-in-a-box documentation</a>.
+                    <br /><br />
+                    For setting up a production environment, take a look at our <a href="http://docs.screwdriver.cd/cluster-management">documentation for cluster management.</a>
+                </div>
+                <div class="col-lg-2">
+                    <br /><br />
+                    Minimum Requirements:
+                    <ul>
+                        <li>Python 2.7</li>
+                        <li><a href="https://www.docker.com/products/docker">Docker for Mac 1.12+</a></li>
+                        <li><a href="https://www.docker.com/products/docker-compose">Docker Compose 1.8.1+</a></li>
+                        <li>Mac OSX 10.10+</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Team Section -->
+    <section id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3 class="section-heading">Our Amazing Team</h3>
+                </div>
+            </div>
+            <div class="row">
+                
+                <div class="col-sm-3 col-lg-3">
+                    <div class="team-member">
+                        <a href="https://github.com/adong" >
+                            <img src="/img/team/adong.jpg" class="img-responsive img-circle" alt="" width="75%">
+                        </a>
+                        <div class="profile-container">
+                           <h4>Alan Dong</h4>
+                           <p class="text-muted">adong</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3 col-lg-3">
+                    <div class="team-member">
+                        <a href="https://github.com/sagar1312" >
+                            <img src="/img/team/sagar1312.jpg" class="img-responsive img-circle" alt="" width="75%">
+                        </a>
+                        <div class="profile-container">
+                           <h4>Dayanand Sagar</h4>
+                           <p class="text-muted">Hakuna Matata</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3 col-lg-3">
+                    <div class="team-member">
+                        <a href="https://github.com/DekusDenial" >
+                            <img src="/img/team/DekusDenial.jpg" class="img-responsive img-circle" alt="" width="75%">
+                        </a>
+                        <div class="profile-container">
+                           <h4>Dekus Lam</h4>
+                           <p class="text-muted">Over 9000</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3 col-lg-3">
+                    <div class="team-member">
+                        <a href="https://github.com/jithine" >
+                            <img src="/img/team/jithine.jpg" class="img-responsive img-circle" alt="" width="75%">
+                        </a>
+                        <div class="profile-container">
+                           <h4>Jithin Emmanuel</h4>
+                           <p class="text-muted">RESTafarian</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3 col-lg-3">
+                    <div class="team-member">
+                        <a href="https://github.com/klu909" >
+                            <img src="/img/team/klu909.jpg" class="img-responsive img-circle" alt="" width="75%">
+                        </a>
+                        <div class="profile-container">
+                           <h4>Kevin Lu</h4>
+                           <p class="text-muted">as himself</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3 col-lg-3">
+                    <div class="team-member">
+                        <a href="https://github.com/pritamstyz4ever" >
+                            <img src="/img/team/pritamstyz4ever.jpg" class="img-responsive img-circle" alt="" width="75%">
+                        </a>
+                        <div class="profile-container">
+                           <h4>Pritam Paul</h4>
+                           <p class="text-muted">likes hikes</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3 col-lg-3">
+                    <div class="team-member">
+                        <a href="https://github.com/tkyi" >
+                            <img src="/img/team/tkyi.jpg" class="img-responsive img-circle" alt="" width="75%">
+                        </a>
+                        <div class="profile-container">
+                           <h4>Tiffany Kyi</h4>
+                           <p class="text-muted">Turtle Addict</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3 col-lg-3">
+                    <div class="team-member">
+                        <a href="https://github.com/kumada626" >
+                            <img src="/img/team/kumada626.jpg" class="img-responsive img-circle" alt="" width="75%">
+                        </a>
+                        <div class="profile-container">
+                           <h4>Keisuke Kumada</h4>
+                           <p class="text-muted">kumada626</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3 col-lg-3">
+                    <div class="team-member">
+                        <a href="https://github.com/s-yoshika" >
+                            <img src="/img/team/s-yoshika.jpg" class="img-responsive img-circle" alt="" width="75%">
+                        </a>
+                        <div class="profile-container">
+                           <h4>Shota Yoshika</h4>
+                           <p class="text-muted">Yo</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3 col-lg-3">
+                    <div class="team-member">
+                        <a href="https://github.com/sakka2" >
+                            <img src="/img/team/sakka2.jpg" class="img-responsive img-circle" alt="" width="75%">
+                        </a>
+                        <div class="profile-container">
+                           <h4>Teppei Minegishi</h4>
+                           <p class="text-muted">sakka2</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3 col-lg-3">
+                    <div class="team-member">
+                        <a href="https://github.com/y-takaha5hi" >
+                            <img src="/img/team/y-takaha5hi.jpg" class="img-responsive img-circle" alt="" width="75%">
+                        </a>
+                        <div class="profile-container">
+                           <h4>Yuya Takahashi</h4>
+                           <p class="text-muted">16 shots per second</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3 col-lg-3">
+                    <div class="team-member">
+                        <a href="https://github.com/yoshwata" >
+                            <img src="/img/team/yoshwata.jpg" class="img-responsive img-circle" alt="" width="75%">
+                        </a>
+                        <div class="profile-container">
+                           <h4>Yoshiyuki Watanabe</h4>
+                           <p class="text-muted">yoshwata</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3 col-lg-3">
+                    <div class="team-member">
+                        <a href="https://github.com/yuichi10" >
+                            <img src="/img/team/yuichi10.jpg" class="img-responsive img-circle" alt="" width="75%">
+                        </a>
+                        <div class="profile-container">
+                           <h4>Yuichi Sawada</h4>
+                           <p class="text-muted">Slam-dunker</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3 col-lg-3">
+                    <div class="team-member">
+                        <a href="https://github.com/ibu1224" >
+                            <img src="/img/team/ibu1224.jpg" class="img-responsive img-circle" alt="" width="75%">
+                        </a>
+                        <div class="profile-container">
+                           <h4>Ibuki Miyagami</h4>
+                           <p class="text-muted">ibu1224</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3 col-lg-3">
+                    <div class="team-member">
+                        <a href="https://github.com/sugarnaoming" >
+                            <img src="/img/team/sugarnaoming.jpg" class="img-responsive img-circle" alt="" width="75%">
+                        </a>
+                        <div class="profile-container">
+                           <h4>Naoaki Sato</h4>
+                           <p class="text-muted">sugarnaoming</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3 col-lg-3">
+                    <div class="team-member">
+                        <a href="https://github.com/itleigns" >
+                            <img src="/img/team/itleigns.jpg" class="img-responsive img-circle" alt="" width="75%">
+                        </a>
+                        <div class="profile-container">
+                           <h4>Haruka Kawamura</h4>
+                           <p class="text-muted">itleigns</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3 col-lg-3">
+                    <div class="team-member">
+                        <a href="https://github.com/y-oksaku" >
+                            <img src="/img/team/y-oksaku.jpg" class="img-responsive img-circle" alt="" width="75%">
+                        </a>
+                        <div class="profile-container">
+                           <h4>Yuki Okesaku</h4>
+                           <p class="text-muted">y-oksaku</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3 col-lg-3">
+                    <div class="team-member">
+                        <a href="https://github.com/yk634" >
+                            <img src="/img/team/yk634.jpg" class="img-responsive img-circle" alt="" width="75%">
+                        </a>
+                        <div class="profile-container">
+                           <h4>Yuta Kaneda</h4>
+                           <p class="text-muted">yk634</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3 col-lg-3">
+                    <div class="team-member">
+                        <a href="https://github.com/GWT5091" >
+                            <img src="/img/team/gwt5091.jpg" class="img-responsive img-circle" alt="" width="75%">
+                        </a>
+                        <div class="profile-container">
+                           <h4>Masataka Yamada</h4>
+                           <p class="text-muted">railway-worker</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3 col-lg-3">
+                    <div class="team-member">
+                        <a href="https://github.com/yakanechi" >
+                            <img src="/img/team/yakanechi.jpg" class="img-responsive img-circle" alt="" width="75%">
+                        </a>
+                        <div class="profile-container">
+                           <h4>Akinori Kanechika</h4>
+                           <p class="text-muted">yakanechi</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3 col-lg-3">
+                    <div class="team-member">
+                        <a href="https://github.com/foxtrot0304" >
+                            <img src="/img/team/foxtrot0304.jpg" class="img-responsive img-circle" alt="" width="75%">
+                        </a>
+                        <div class="profile-container">
+                           <h4>Masahiro Hirabaru</h4>
+                           <p class="text-muted">foxtrot0304</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p class="large text-muted">Our experiences have inspired us to set out to build an intuitive, sophisticated tool to boost developer productivity. Special thanks to our original team members <a href="https://github.com/stjohnjohnson">St. John Johnson</a>, <a href="https://github.com/jer">Jeremiah Wuenschel</a>, <a href"https://github.com/d2lam">Dao Lam</a>, <a href="https://github.com/nkatzman">Noah Katzman</a>, <a href="https://github.com/petey">Peter Peterson</a>, <a href="https://github.com/FenrirUnbound">Darren Matsumoto</a>, and our designer <a href="https://github.com/chasturansky">Chas Turansky</a>. Other contributors include <a href="https://github.com/minz1027">Min Zhang</a>, <a href="https://github.com/Filbird">Filbert Jahja</a>, <a href="https://github.com/pranavrc">Pranav Ravichandran</a>, <a href="https://github.com/bdangit">Ben Dang</a>, <a href="https://github.com/Zhongtang">Zhongtang Tian</a>, <a href="https://github.com/r3rastogi">Reetika Rastogi</a>, <a href="https://github.com/cynthiax">Cynthia Xin Li</a>, <a href="https://github.com/Code-Beast">Yufeng Gao</a>, <a href="https://github.com/ScottyFillups">Philip Scott</a>, <a href="https://github.com/joelseq">Joel Sequeira</a>, <a href="https://github.com/ian-fox">Ian Fox</a>, <a href="https://github.com/lusol">Brian Wang</a>, <a href="https://github.com/nicolaifsf">Nicolai Ferraris</a>, <a href="https://github.com/jerryzhang222">Jerry Zhang</a>, <a href="https://github.com/catto">Ryosuke Nakayama</a>, <a href="https://github.com/wdstar">Yomei Komiya</a>, <a href="https://github.com/yokawara">Yuta Ohkawara</a>, <a href="https://github.com/kkokufud">Kazuki Kokufuda</a>, <a href="https://github.com/MysticDoll">Mitsuru Takigahira</a>, <a href="https://github.com/kkisic">Kazuyuki Kai</a>, <a href="https://github.com/parthasl">Lakshminarasimhan Parthasarathy</a>, <a href="https://github.com/mchengat">Mansoor Chengat</a>, <a href="https://github.com/ombharatiya">Om Bharatiya</a>, <a href="https://github.com/tk3fftk">Hiroki Takatsuka</a>, <a href="https://github.com/wahapo">Kenta Kawaharada</a>, <a href="https://github.com/esuc4se">Ryosuke Shimma</a>, and our friends from LY Corporation. The Screwdriver team is based in Sunnyvale, CA.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+      <footer class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                </div>
+                <div class="col-md-3">
+                    <h4>Resources</h4>
+                    <ul class="quicklinks">
+                        <li><a href="http://docs.screwdriver.cd/user-guide/quickstart">Getting Started</a>
+                        </li>
+                        <li><a href="http://docs.screwdriver.cd">Documentation</a>
+                        </li>
+                        <li><a href="https://github.com/screwdriver-cd">Source Code</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4>Contact</h4>
+                    <ul class="quicklinks">
+                        <li><a href="http://docs.screwdriver.cd/about/support">Contact Us</a>
+                        </li>
+                        <li><a href="https://github.com/screwdriver-cd/screwdriver/issues">Issues</a>
+                        </li>
+                        <li><a href="https://twitter.com/screwdrivercd">Twitter</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4>Community</h4>
+                    <ul class="quicklinks">
+                        <li><a href="http://docs.screwdriver.cd/about/contributing">Contributing</a>
+                        </li>
+                        <li><a href="http://blog.screwdriver.cd">Blog</a>
+                        </li>
+                        <li><a href="http://stackoverflow.com/questions/tagged/screwdriver-cd">Stack Overflow</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                </div>
+            </div>
+            <div class="credits">
+                <span class="copyright">Copyright Yahoo Inc. 2024</span>
+                Licensed by <a href="https://github.com/screwdriver-cd/screwdriver/blob/master/LICENSE">BSD-3-Clause</a>
+                , <a href="https://github.com/y7kim/agency-jekyll-theme">Theme</a> by Rick K.
+                , <a href="https://flic.kr/p/hmZTt">Photo</a> by Don DeBold
+                <br>
+                Incubating Project of the <a href="https://cd.foundation">Continuous Delivery Foundation</a>
+		<br>
+		<br>
+                <a href="https://cd.foundation"><img src="https://raw.githubusercontent.com/cdfoundation/artwork/master/cdf/icon/color/cdf-icon-color.png" alt="Continuous Delivery Foundation logo" style="width: 100px;"></a>
+            </div>
+        </div>
+    </footer>
+
+        <!-- jQuery Version 1.11.0 -->
+    <script src="/js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="/js/jquery.easing.min.js"></script>
+    <script src="/js/classie.js"></script>
+    <script src="/js/cbpAnimatedHeader.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="/js/agency.js"></script>
+
+    <!-- Google Analytics Tracking -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-88158708-2', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+
+    </body>
+</html>
