@@ -106,16 +106,6 @@ people:
   position: ibu1224
   github: https://github.com/ibu1224
 
-- name: Naoaki Sato
-  pic: sugarnaoming
-  position: sugarnaoming
-  github: https://github.com/sugarnaoming
-
-- name: Haruka Kawamura
-  pic: itleigns
-  position: itleigns
-  github: https://github.com/itleigns
-
 - name: Yuki Okesaku
   pic: y-oksaku
   position: y-oksaku
@@ -126,11 +116,6 @@ people:
   position: yk634
   github: https://github.com/yk634
 
-- name: Masataka Yamada
-  pic: gwt5091
-  position: railway-worker
-  github: https://github.com/GWT5091
-
 - name: Akinori Kanechika
   pic: yakanechi
   position: yakanechi
@@ -140,3 +125,8 @@ people:
   pic: foxtrot0304
   position: foxtrot0304
   github: https://github.com/foxtrot0304
+
+- name: Ryouta Aihata
+  pic: raihata
+  position: raihata
+  github: https://github.com/raihata

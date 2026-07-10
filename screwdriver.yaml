@@ -1,5 +1,5 @@
 shared:
-    image: ruby:3
+    image: ruby:3.3
 
 jobs:
     main:
