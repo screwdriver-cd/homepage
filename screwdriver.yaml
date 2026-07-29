@@ -17,4 +17,4 @@ jobs:
             - publish: bundle exec ./deploy.sh
         secrets:
             # Pushing code to Git
-            - GIT_KEY
+            - GIT_KEY_BASE64
